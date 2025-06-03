@@ -1,3 +1,4 @@
+// https://www.greatfrontend.com/questions/algo/array-find-duplicate
 /**
  * Using Set to check if a number already exist, O(n)
  */
