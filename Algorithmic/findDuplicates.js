@@ -1,6 +1,6 @@
 // https://www.greatfrontend.com/questions/algo/array-find-duplicate
 
-//1
+//1 (js)
 /**
  * Using Set to check if a number already exist, Time complexity: O(n), Space complexity: O(n)
  */
@@ -13,7 +13,7 @@ export default function findDuplicates(numbers) {
     return false;
 }
 
-//2
+//2 (ts)
 /**
 Sort the array first, then check each pair of element in array is duplicated. Time complexity: O(n log n), Space complexity: O(1)
 */
