@@ -3,6 +3,7 @@
 /**
  * Step 1: convert num to binary string
  * Step 2: count 1 in binary string
+ Time commplexity: O(n)
  */
 export default function countOnesInBinary(num) {
   const bi = num.toString(2);
