@@ -1,9 +1,8 @@
 // https://www.greatfrontend.com/questions/algo/pair-sum
 
 /**
- * @param {number[]} numbers
- * @param {number} target
- * @return {number[]}
+ * Check if target - number = its pairNumber
+its pair number is stored in a map
  */
 export default function pairSum(numbers, target) {
   const map = new Map();
