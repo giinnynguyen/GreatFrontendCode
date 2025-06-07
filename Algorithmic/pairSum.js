@@ -9,13 +9,11 @@ export default function pairSum(numbers, target) {
   const map = new Map();
 
     for (let i = 0; i < numbers.length; i++) {
-        map.set(numbers[i], i);
-    }
-    for (let i = 0; i < numbers.length; i++) {
         const num = target - numbers[i];
         if (map.has(num) && map.get(num) !== i) {
-            return [i, map.get(num)];
+            return [map.get(num), i];
         }
+        map.set(numbers[i], i);
     }
     return []
 }
