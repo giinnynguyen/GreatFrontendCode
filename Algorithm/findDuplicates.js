@@ -6,11 +6,11 @@
  */
 export default function findDuplicates(numbers) {
   const set = new Set();
-    for (let number of numbers) {
-        if (set.has(number)) return true;
-        set.add(number);
-    }
-    return false;
+  for (let number of numbers) {
+      if (set.has(number)) return true;
+      set.add(number);
+  }
+  return false;
 }
 
 //2 (ts)
