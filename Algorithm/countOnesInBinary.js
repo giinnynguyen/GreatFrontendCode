@@ -7,9 +7,9 @@
  */
 export default function countOnesInBinary(num) {
   const bi = num.toString(2);
-    let count = 0;
-    for (let s of bi) {
-        if (s === '1') count++;
-    }
-    return count;
+  let count = 0;
+  for (let s of bi) {
+      if (s === '1') count++;
+  }
+  return count;
 }
